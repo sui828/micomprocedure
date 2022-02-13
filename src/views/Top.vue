@@ -118,8 +118,7 @@
     <div class="info-caption">年間スケジュール予定</div>
     <ul class="join-box">
       <li class="join-left" style="background: #ff8080;">4月</li>
-      <li class="join-right">新歓活動
-スプリングフェスティバル</li>
+      <li class="join-right">新歓活動<br>スプリングフェスティバル</li>
     </ul>
     <ul class="join-box">
       <li class="join-left" style="background: #ffd280;">5月</li>
@@ -167,9 +166,9 @@
         <li><div class="footertext"><b>SHARE</b></div></li>
       </ul>
       <ul class="snsiconlist">
-        <li><a href="https://twitter.com/share?url=https://sui828.github.io/proce/&text=Micomprocedure%28%E3%83%9E%E3%82%A4%E3%82%B3%E3%83%B3%E3%83%97%E3%83%AD%E3%82%B7%E3%83%BC%E3%82%B8%E3%83%A3%29+-+%E6%9D%B1%E5%8C%97%E5%A4%A7%E5%AD%A6%E3%82%B2%E3%83%BC%E3%83%A0%E5%88%B6%E4%BD%9C%E3%82%B5%E3%83%BC%E3%82%AF%E3%83%AB%0D%0A&related=micom_procedure"><img src="../assets/common/iconmonstr-twitter-4.svg"></a></li>
-        <li><a href="https://www.facebook.com/sharer/sharer.php?u=https://sui828.github.io/proce/"><img src="../assets/common/iconmonstr-facebook-4.svg"></a></li>
-        <li><a href="http://line.me/R/msg/text/?Micomprocedure%28%E3%83%9E%E3%82%A4%E3%82%B3%E3%83%B3%E3%83%97%E3%83%AD%E3%82%B7%E3%83%BC%E3%82%B8%E3%83%A3%29+-+%E6%9D%B1%E5%8C%97%E5%A4%A7%E5%AD%A6%E3%82%B2%E3%83%BC%E3%83%A0%E5%88%B6%E4%BD%9C%E3%82%B5%E3%83%BC%E3%82%AF%E3%83%AB%0D%0Ahttps%3A%2F%2Fsui828.github.io%2Fproce%2F"><img src="../assets/common/iconmonstr-line-4.svg"></a></li>
+        <li><a href="https://twitter.com/share?url=https://sui828.github.io/micomprocedure/&text=Micomprocedure%28%E3%83%9E%E3%82%A4%E3%82%B3%E3%83%B3%E3%83%97%E3%83%AD%E3%82%B7%E3%83%BC%E3%82%B8%E3%83%A3%29+-+%E6%9D%B1%E5%8C%97%E5%A4%A7%E5%AD%A6%E3%82%B2%E3%83%BC%E3%83%A0%E5%88%B6%E4%BD%9C%E3%82%B5%E3%83%BC%E3%82%AF%E3%83%AB%0D%0A&related=micom_procedure"><img src="../assets/common/iconmonstr-twitter-4.svg"></a></li>
+        <li><a href="https://www.facebook.com/sharer/sharer.php?u=https://sui828.github.io/micomprocedure/"><img src="../assets/common/iconmonstr-facebook-4.svg"></a></li>
+        <li><a href="http://line.me/R/msg/text/?Micomprocedure%28%E3%83%9E%E3%82%A4%E3%82%B3%E3%83%B3%E3%83%97%E3%83%AD%E3%82%B7%E3%83%BC%E3%82%B8%E3%83%A3%29+-+%E6%9D%B1%E5%8C%97%E5%A4%A7%E5%AD%A6%E3%82%B2%E3%83%BC%E3%83%A0%E5%88%B6%E4%BD%9C%E3%82%B5%E3%83%BC%E3%82%AF%E3%83%AB%0D%0Ahttps%3A%2F%2Fsui828.github.io%2Fmicomprocedure%2F"><img src="../assets/common/iconmonstr-line-4.svg"></a></li>
       </ul>
     </div>
     <div class="copyright">&copy; Copyright micomprocedure 2021 all right reserved.</div>

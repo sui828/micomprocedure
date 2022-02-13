@@ -2,7 +2,6 @@
   <v-carousel
     cycle
     height="700"
-    hide-delimiter-background
     delimiter-icon="circle"
   >
     <template v-slot:prev="{ on, attrs }">

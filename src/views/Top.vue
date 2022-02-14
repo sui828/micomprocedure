@@ -60,47 +60,147 @@
     <div class="works-box">
       <div class="works-content">
         <img src="../assets/works/THE_UFO_ico.png">
-        <a href="#" class="disabled">
+        <div @click="open1">
           <div class="works-mask">
             <div class="works-caption">THE Unexpected Fighting Operation</div>
           </div>
-        </a>
+        </div>
+        <v-dialog
+          width="80%"
+          max-width="1366"
+          scrollable
+          v-model="dialog1"
+        >
+          <div class="dialog">
+            <div class="dialog-box">
+              <img src="../assets/works/THE_UFO_ico.png">
+              <div class="dialog-text">
+                <h1>THE Unexpected Fighting Operation</h1>
+                <h2>2Dアクション</h2>
+                <p>異世界のような宇宙のどこかの惑星で、宇宙船が故障したらしい乗組員が現地の生命と戦い、素材を手に入れ、宇宙船の修理そして帰還を目指すスペース・ファンタジーゲームです。</p>
+              </div>
+            </div>
+            <div class="mainbuttonarea2">
+              <a href="http://www.proc.org.tohoku.ac.jp/?plugin=attach&refer=%B8%F8%B3%AB%C3%E6%A4%CE%BA%EE%C9%CA%2F2021%C7%AF%C5%D9%BF%B7%C6%FE%C0%B8%A5%D7%A5%ED%A5%B8%A5%A7%A5%AF%A5%C8%2FTHE%20Unexpected%20Fighting%20Operation&openfile=THE%20Unexpected%20Fighting%20Operation.zip"><span class="mainbuttonspan"><b>DOWNLOAD</b></span></a>
+            </div>
+          </div>
+        </v-dialog>
       </div>
       <div class="works-content">
         <img src="../assets/works/harusagashi_ico.png">
-        <a href="#" class="disabled">
+        <div @click="open2">
           <div class="works-mask">
             <div class="works-caption">はるさがし</div>
           </div>
-        </a>
+        </div>
+        <v-dialog
+          width="80%"
+          max-width="1366"
+          scrollable
+          v-model="dialog2"
+        >
+          <div class="dialog">
+            <div class="dialog-box">
+              <img src="../assets/works/harusagashi_ico.png">
+              <div class="dialog-text">
+                <h1>はるさがし</h1>
+                <h2>2Dアクション</h2>
+                <p>歩行と飛行を切り替えながらキャラクターを操作し、さがしものを集めて春を取り戻せ！</p>
+              </div>
+            </div>
+            <div class="mainbuttonarea2">
+              <a href="http://www.proc.org.tohoku.ac.jp/?plugin=attach&refer=%B8%F8%B3%AB%C3%E6%A4%CE%BA%EE%C9%CA%2F2021%C7%AF%C5%D9%BF%B7%C6%FE%C0%B8%A5%D7%A5%ED%A5%B8%A5%A7%A5%AF%A5%C8%2F%A4%CF%A4%EB%A4%B5%A4%AC%A4%B7&openfile=Harusagashi_V1.0.zip"><span class="mainbuttonspan"><b>DOWNLOAD</b></span></a>
+            </div>
+          </div>
+        </v-dialog>
       </div>
       <div class="works-content">
         <img src="../assets/works/Escape_from_Shrine_ico.png">
-        <a href="#" class="disabled">
+        <div @click="open3">
           <div class="works-mask">
             <div class="works-caption">神社からの脱出</div>
           </div>
-        </a>
+        </div>
+        <v-dialog
+          width="80%"
+          max-width="1366"
+          scrollable
+          v-model="dialog3"
+        >
+          <div class="dialog">
+            <div class="dialog-box">
+              <img src="../assets/works/Escape_from_Shrine_ico.png">
+              <div class="dialog-text">
+                <h1>神社からの脱出</h1>
+                <h2>3Dホラー</h2>
+                <p>ミニゲームをクリアしながら、神社からの脱出を目指すゲーム。</p>
+              </div>
+            </div>
+            <div class="mainbuttonarea2">
+              <a href="http://www.proc.org.tohoku.ac.jp/?plugin=attach&refer=%B8%F8%B3%AB%C3%E6%A4%CE%BA%EE%C9%CA%2F2021%C7%AF%C5%D9%BF%B7%C6%FE%C0%B8%A5%D7%A5%ED%A5%B8%A5%A7%A5%AF%A5%C8%2F%BF%C0%BC%D2%A4%AB%A4%E9%A4%CE%C3%A6%BD%D0&openfile=%BF%C0%BC%D2%A4%AB%A4%E9%A4%CE%C3%A6%BD%D0.zip"><span class="mainbuttonspan"><b>DOWNLOAD</b></span></a>
+            </div>
+          </div>
+        </v-dialog>
       </div>
       <div class="works-content">
         <img src="../assets/works/Gravity-Lost_ico.png">
-        <a href="#" v="disabled">
+        <div @click="open4">
           <div class="works-mask">
             <div class="works-caption">Gravity-Lost</div>
           </div>
-        </a>
+        </div>
+        <v-dialog
+          width="80%"
+          max-width="1366"
+          scrollable
+          v-model="dialog4"
+        >
+          <div class="dialog">
+            <div class="dialog-box">
+              <img src="../assets/works/Gravity-Lost_ico.png">
+              <div class="dialog-text">
+                <h1>Gravity-Lost</h1>
+                <h2>3Dアクション</h2>
+                <p>ロボットのラヴィはとある事故をきっかけにほぼ全ての記憶をなくしてしまった。ラヴィは自身の記憶チップを回収しながら唯一覚えている白衣の男性を探す旅に出る・・・。</p>
+              </div>
+            </div>
+            <div class="mainbuttonarea2">
+              <a href="http://www.proc.org.tohoku.ac.jp/?plugin=attach&refer=%B8%F8%B3%AB%C3%E6%A4%CE%BA%EE%C9%CA%2F2021%C7%AF%C5%D9%BF%B7%C6%FE%C0%B8%A5%D7%A5%ED%A5%B8%A5%A7%A5%AF%A5%C8%2FGravity-Lost&openfile=Gravity-Lost.zip"><span class="mainbuttonspan"><b>DOWNLOAD</b></span></a>
+            </div>
+          </div>
+        </v-dialog>
       </div>
       <div class="works-content">
         <img src="../assets/works/R_T_A_ico.png">
-        <a href="#" class="disabled">
+        <div @click="open5">
           <div class="works-mask">
             <div class="works-caption">落単・タイム・アタック！</div>
           </div>
-        </a>
+        </div>
+        <v-dialog
+          width="80%"
+          max-width="1366"
+          scrollable
+          v-model="dialog5"
+        >
+          <div class="dialog">
+            <div class="dialog-box">
+              <img src="../assets/works/R_T_A_ico.png">
+              <div class="dialog-text">
+                <h1>落単・タイム・アタック！</h1>
+                <h2>2Dアクション</h2>
+                <p>―――限界大学生に刻一刻と迫る再履の音―――<br>あなたは落単間近の大学生（以下、イカトン）。レポートの提出を目指しキャンパスを駆け巡ります。道中の「金のレポート」を回収し、高評定を目指しましょう。</p>
+              </div>
+            </div>
+            <div class="mainbuttonarea2">
+              <a href="http://www.proc.org.tohoku.ac.jp/?plugin=attach&refer=%B8%F8%B3%AB%C3%E6%A4%CE%BA%EE%C9%CA%2F2021%C7%AF%C5%D9%BF%B7%C6%FE%C0%B8%A5%D7%A5%ED%A5%B8%A5%A7%A5%AF%A5%C8%2F%CD%EE%C3%B1%A1%A6%A5%BF%A5%A4%A5%E0%A1%A6%A5%A2%A5%BF%A5%C3%A5%AF%A1%AA&openfile=%CD%EE%C3%B1RTA.zip"><span class="mainbuttonspan"><b>DOWNLOAD</b></span></a>
+            </div>
+          </div>
+        </v-dialog>
       </div>
     </div>
     <div class="mainbuttonarea">
-      <router-link to="/works"><span class="mainbuttonspan"><b>and more...</b></span></router-link>
+      <router-link to="/works"><span class="mainbuttonspan" @click="scrollTop2"><b>and more...</b></span></router-link>
     </div>
     <div id="point-3" class="end-space"></div>
   </div>
@@ -183,7 +283,15 @@ import Carousel from '@/components/Carousel.vue'
 
 export default {
   name: 'Top',
-
+  data() {
+    return {
+      dialog1: false,
+      dialog2: false,
+      dialog3: false,
+      dialog4: false,
+      dialog5: false
+    };
+  },
   components: {
     Carousel
   },
@@ -192,6 +300,11 @@ export default {
       window.scrollTo({
         top: 0,
         behavior: "smooth"
+      });
+    },
+    scrollTop2: function(){
+      window.scrollTo({
+        top: 0,
       });
     },
     scrollAbout: function(){
@@ -211,6 +324,21 @@ export default {
         top: 2600,
         behavior: "smooth"
       });
+    },
+    open1: function(){
+      this.dialog1 = true;
+    },
+    open2: function(){
+      this.dialog2 = true;
+    },
+    open3: function(){
+      this.dialog3 = true;
+    },
+    open4: function(){
+      this.dialog4 = true;
+    },
+    open5: function(){
+      this.dialog5 = true;
     }
   }
 }
@@ -219,4 +347,8 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style>
   @import "../assets/stylesheet.css"
+</style>
+
+<style lang="scss">
+
 </style>

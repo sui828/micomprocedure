@@ -24,7 +24,8 @@
       </header>
   
   <div class="car_space"></div>
-  <Carousel/>
+  <div v-bind:class="{active:pcView}"><Carousel/></div>
+  <div v-bind:class="{active:mobileView}"><CarouselMobile/></div>
   <div class="about">
     <div class="caption1">ABOUT</div>
     <div class="caption2">サークル情報</div>
@@ -50,7 +51,7 @@
     </ul>
     <ul class="about-box">
       <li class="about-left">部費</li>
-      <li class="about-right">3000円</li>
+      <li class="about-right">年3000円</li>
     </ul>
     <div id="point-2" class="space"></div>
   </div>
@@ -280,6 +281,7 @@
 
 <script>
 import Carousel from '@/components/Carousel.vue'
+import CarouselMobile from '@/components/Carousel_mobile.vue'
 
 export default {
   name: 'Top',
@@ -289,11 +291,14 @@ export default {
       dialog2: false,
       dialog3: false,
       dialog4: false,
-      dialog5: false
+      dialog5: false,
+      pcView: {},
+      mobileView: {}
     };
   },
   components: {
-    Carousel
+    Carousel,
+    CarouselMobile
   },
   methods: {
     scrollTop: function(){
@@ -339,7 +344,23 @@ export default {
     },
     open5: function(){
       this.dialog5 = true;
+    },
+    handleResize: function() {
+      if (window.innerWidth < 480) {
+        this.pcView = true;
+        this.mobileView = false;
+      } else {
+        this.pcView = false;
+        this.mobileView = true;
+      }
     }
+  },
+  created() {
+    window.addEventListener('resize', this.handleResize)
+    this.handleResize()
+  },
+  destroyed() {
+    window.removeEventListener('resize', this.handleResize)
   }
 }
 </script>
@@ -348,7 +369,8 @@ export default {
 <style>
   @import "../assets/stylesheet.css"
 </style>
-
-<style lang="scss">
-
+<style>
+.active {
+  display: none;
+}
 </style>

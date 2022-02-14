@@ -2,7 +2,10 @@
   <v-app>
     <v-main>
       <router-view/>
-      <button class="page-top" @click="scrollTop"></button>
+      <button class="page-top" @click="scrollTop">
+        <div><img src="./assets/common/iconmonstr-arrow-66.svg" class="uarr"></div>
+        <div class="top-text">PageTop</div>
+      </button>
     </v-main>
   </v-app>
 </template>

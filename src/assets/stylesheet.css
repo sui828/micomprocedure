@@ -665,18 +665,35 @@ header {
 }
 .dialog-box {
   width: 100%;
-  display: flex;
+}
+@media screen and (max-width: 479px) {
+  .dialog-box > img {
+    width: 100%;
+  }
+  .dialog-text{
+    width: 100%;
+    margin-left: auto;
+  }
+}
+@media screen and (min-width: 480px) {
+  .dialog-box{
+    display: flex;
+  }
+  .dialog-box > img {
+    width: 40%;
+  }
+  .dialog-text{
+    width: 58%;
+    margin-left: auto;
+  }
 }
 .dialog-box > img {
   border-radius: 8%;
   border: 3px solid #eee;
-  width: 40%;
   object-fit: cover;
   font-family: 'object-fit: cover;'; /*IE対策*/
 }
 .dialog-text {
-  width: 58%;
-  margin-left: auto;
   font-family: 'Noto Sans JP', sans-serif;
   color: #111;
 }
